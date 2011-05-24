@@ -35,6 +35,7 @@ Source: "images\*";            DestDir: "{app}\images";
 Name: "{group}\clj"; Filename: "{app}\bin\clj.exe"; IconFilename: "{app}\images\clj-logo.ico"
 Name: "{group}\clj-fe"; Filename: "{app}\bin\clj-fe.vbs"; IconFilename: "{app}\images\clj-fe-logo.ico"; Flags: runminimized
 Name: "{group}\examples"; Filename: "{app}\examples";
+Name: "{group}\un-install"; Filename: "{app}\unins000.exe";
 
 [Run]
 ;Filename: "{app}\bin\clj-fe-tray.bat";
